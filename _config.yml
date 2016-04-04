@@ -1,17 +1,17 @@
 # Site settings
-title: Peiwen Lu
+title: Jason Bourne
 email: "&#104;&#105;&#064;&#112;&#101;&#105;&#119;&#101;&#110;&#046;&#108;&#117;"
-description: "Peiwen Lu's front-end blog."
+description: "Significant"
 baseurl: ""
-url: "http://peiwen.lu"
+url: "http://xiaobaolovexiaomei.com"
 permalink: /:year/:title
 
 
 # Social account
-twitter:  PeiwenLu
+# twitter:  PeiwenLu
 # weibo:    ID
-github:   P233
-codepen:  P233
+github:   webbings
+# codepen:  P233
 # dribbble: username
 
 
@@ -20,7 +20,7 @@ codepen:  P233
 
 
 # Google Analytics
-google_analytics: UA-60830414-1
+# google_analytics: UA-60830414-1
 
 
 # Build settings
