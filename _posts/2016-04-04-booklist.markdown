@@ -5,3 +5,7 @@ tags: Booklist
 ---
 
 分享一些我的书单
+[https://www.zhihu.com/question/20584141](https://www.zhihu.com/question/20584141)
+[https://github.com/jobbole/awesome-java-cn#dependency-injection](https://github.com/jobbole/awesome-java-cn#dependency-injection)
+[https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+[http://www.jianshu.com/collection/e2a2a0073e2d](http://www.jianshu.com/collection/e2a2a0073e2d)
