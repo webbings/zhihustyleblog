@@ -14,4 +14,4 @@ tags: Booklist
 
 [http://www.jianshu.com/collection/e2a2a0073e2d](http://www.jianshu.com/collection/e2a2a0073e2d)
 
-https://github.com/nemoTyrant/manong
+[https://github.com/nemoTyrant/manong](https://github.com/nemoTyrant/manong)
