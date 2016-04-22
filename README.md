@@ -1,5 +1,6 @@
 
 www.xiaobaolovexiaomei.com
+
 1. 绑定域名 CNAME
 2. 配置博客名称： _config.yml
 3. 修改左侧菜单背景色： webbings.github.io-master\css\main.sass
