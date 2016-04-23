@@ -5,6 +5,7 @@ tags: Booklist
 ---
 
 分享一些我的书单
+[![test pic](http://ww3.sinaimg.cn/crop.0.0.422.237.1000.562/89ad7439jw1f35c7gxyzgj20bq07h3yh.jpg)](http://www.google.com)
 
 [https://www.zhihu.com/question/20584141](https://www.zhihu.com/question/20584141)
 
