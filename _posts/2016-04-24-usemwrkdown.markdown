@@ -26,7 +26,31 @@ tags: 杂货箱
 
 ### 这是二级标题
 
-### 3.二级标题
+### 3.加背景
+
+{% highlight xslt %}
+`我有背景`
+{% endhighlight %}
+
+`效果如下：`
+
+`我有背景`
+
+### 4.代码
+
+{% highlight xslt %}
+{% highlight xslt %}
+int i = 0;
+{% endhighlight %}
+{% endhighlight %}
+
+`效果如下：`
+
+{% highlight xslt %}
+int i = 0;
+{% endhighlight %}
+
+### 5.引用图片
 
 {% highlight xslt %}
 ## 这是二级标题
