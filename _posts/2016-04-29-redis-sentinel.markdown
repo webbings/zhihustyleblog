@@ -7,7 +7,9 @@ tags: redis
 ### Redis、Memcached、mongoDB 江湖争议
 
 Redis：一个开源的使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API
+
 Memcached：一套分布式的高速缓存系統
+
 mongoDB：文档型的非关系型数据库，查询功能比较强大，能存储海量数据
 
 *1.存储数据结构*
@@ -48,7 +50,7 @@ memcache 用于在动态系统中减少数据库负载，提升性能;做缓存�
 
 
 ### Redis开启服务（Linux）
-{% highlight html %}
+{% highlight shell %}
 src/redis-server &
 src/redis-sentinel /home/path/to/redis-3.0.7/sentinel.conf --sentinel &
 {% endhighlight %}
