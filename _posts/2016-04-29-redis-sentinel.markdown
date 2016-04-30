@@ -63,7 +63,7 @@ down-after-milliseconds mymaster 60000
 
 `monitor myredis 127.0.0.1 6379 2`
 
-上面的ip地址如果配置成localhost，那么远程连接就会失败，建议配置成ip地址
+上面的ip地址如果配置成localhost，那么远程连接就会失败，建议配置成ip地址（192.168.18.101）
 这个主实例判断为失效至少需要 2 个 Sentinel 进程的同意，只要同意 Sentinel 的数量不达标，自动failover就不会执行。同时，一个Sentinel都需要获得系统中大多数Sentinel进程的支持， 才能发起一次自动failover， 并预留一个新主实例配置的编号。而当超过半数Redis不能正常工作时，自动故障转移是无效的
 
 `down-after-milliseconds`
