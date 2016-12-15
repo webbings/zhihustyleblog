@@ -1,31 +1,6 @@
-# Site settings
-title: Jason's Blog
-email: "&#115;&#104;&#97;&#111;&#106;&#104;&#119;&#101;&#98;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
-description: "Significant"
-baseurl: ""
-url: "http://xiaobaolovexiaomei.com"
-permalink: /:year/:title
+permalink: /:title
 
-
-# Social account
-# twitter:  PeiwenLu
-# weibo:    ID
-github:   webbings
-# codepen:  P233
-# dribbble: username
-
-
-# Comment
-# disqus_shortname:
-
-
-# Google Analytics
-# google_analytics: UA-60830414-1
-
-
-# Build settings
-markdown: kramdown
-sass:
-  style: compressed
-gems:
-  - jekyll-sitemap
+title: ms_jason.com
+url: http://ms_jason.com
+feed: /atom.xml
+author_info: <a href="http://ms_jason.com/">XiaoBao</a>

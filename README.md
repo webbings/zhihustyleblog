@@ -1,9 +1,10 @@
+#一点点说明
 
-www.xiaobaolovexiaomei.com
+这是[BeiYuu.com](http://beiyuu.com)的示例代码，如果你看了[使用Github Pages建独立博客](http://beiyuu.com/github-pages)，希望看下去哦：
 
-1. 绑定域名 CNAME
-2. 配置博客名称： _config.yml
-3. 修改左侧菜单背景色： webbings.github.io-master\css\main.sass
-4. 博客内容界面修改： webbings.github.io-master\_layouts\default.html
-5. 博客内容界面分享修改： \_layouts\post.html | \_sass\5-post.sass | \_sass\2-icon.scss  使用到了 icomoon 开源icon组件
-6. 
+* 马上动手，很赞
+* 感谢认可
+* 推荐阅读：[我为什么写博客？](http://beiyuu.com/why-blog)
+* 想复用我的设计，没问题，标个出处就好啦
+* 转载也没问题，标个出处呗少年
+* 恩，认真的童鞋最可爱啦~
