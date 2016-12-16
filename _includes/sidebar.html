@@ -1,7 +1,7 @@
 <div class="sidebar">
   <img class="avatar" src="{{ "/assets/avatar.jpg" | prepend: site.baseurl }}" alt="{{ site.author }}">
-  <div class="col-box-title name myFont css2dcc4b9955748">{{ site.author }}</div>
-  <p class="myFont css2dcc4b9955748">{{ site.profile }}</p>
+  <div class="col-box-title name myFont">{{ site.author }}</div>
+  <p class="myFont">{{ site.profile }}</p>
   <p class="contact">
     {% if site.github_username %}
     <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -9,6 +9,7 @@
     {% if site.weibo_username %}
     <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
     {% endif %}
+    <a href="{{ "/assets/weixin.jpg" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-weixin" aria-hidden="true"></i></a>
     {% if site.twitter_username %}
     <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     {% endif %}
@@ -17,9 +18,8 @@
     {% endif %}
   </p>
 
-  <div class="col-box-title myFont css2dcc4b9955748">Recent Articles</div>
+  <div class="col-box-title myFont">近期文章</div>
   <ul class="post-list">
-    <li>Theme By <a href="http://zhaoyuxiang.cn">Clark Zhao</a></li>
     {% for post in site.posts limit:5 %}
       <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }}</a></li>
     {% endfor %}
