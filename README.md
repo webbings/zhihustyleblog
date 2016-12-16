@@ -8,3 +8,6 @@
 * 想复用我的设计，没问题，标个出处就好啦
 * 转载也没问题，标个出处呗少年
 * 恩，认真的童鞋最可爱啦~
+Here are som awesome Jeklly Themes 
+zhihu style(http://jekyllthemes.org/themes/bohu-jekyll-theme/)
+simple style(http://jekyllthemes.org/themes/Renge/)
