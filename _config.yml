@@ -3,25 +3,25 @@ title: 逼乎
 url: "http://xiaobaolovexiaomei.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
-description: 天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3、JavaScript、JQuery等编程经验总结分享。
+description: Jason的个人博客网站，编程、读书、英语。
 # Your information
-email: me@zhaoyuxiang.cn
-author: 天道总司
-place: 杭州
+email: shaojhweb@gmail.com
+author: Jason
+place: 中国
 domain: 互联网
-company: Jeeyoo
-position: Technical Support
-school: 浙江科技学院
-major: 测控技术与仪器
+company: 无
+position: 无
+school: 三本
+major: 渔业
 # resume: "http://zhaoyuxiang.cn/cv"
-profile: 聪明在于勤奋，天才在于积累。
-twitter_username: zyx19936688
-weibo_username:  zhaoyuxiang
-github_username:  Clark-Zhao
+profile: 无。
+twitter_username: ms_jason
+weibo_username:  ms_jason
+github_username:  ms_jason
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-disqus_shortname: zhaoyuxiang
+disqus_shortname: ms_jason
 # get one: https://disqus.com/admin/signup/
 # duoshuo_shortname: clark-zhao
 # get one: http://duoshuo.com/create-site/
