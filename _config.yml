@@ -1,6 +1,43 @@
-permalink: /:title
+﻿# Site settings
+title: 逼乎
+url: "http://xiaobaolovexiaomei.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
+baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
+#timezone: Asia/Shanghai
+description: 逼乎个人博客网站，技术、读书、语言。
+# Your information
+email: shaojhweb@gmail.com
+author: 逼乎
+place: 中国
+domain: 互联网
+company: -
+position: -
+school: 三本
+major: 渔业
+profile: -
+twitter_username: ms_jason
+weibo_username:  ms_jason
+github_username:  ms_jason
 
-title: ms_jason.com
-url: http://ms_jason.com
-feed: /atom.xml
-author_info: <a href="http://ms_jason.com/">XiaoBao</a>
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: ms_jason
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao
+# get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 3
+paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

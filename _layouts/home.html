@@ -1,0 +1,41 @@
+﻿{% include head.html %}
+<body class="homebody">
+{% include header.html %}
+{{ content }}
+	</div>
+</div>
+<div class="sidebar">
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=210 src="http://music.163.com/outchain/player?type=2&id=32922450&auto=0&height=430&auto=1&height=66"></iframe>
+  <div class="col-box-title name myFont">{{ site.author }}</div>
+  <p class="myFont">{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.weibo_username %}
+    <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+    {% endif %}
+    <a href="{{ "/assets/weixin.jpg" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-weixin" aria-hidden="true"></i></a>
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    {% endif %}
+  </p>
+
+  <div class="col-box-title myFont">近期文章</div>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="col-box-title myFont">友情链接</div>
+  <ul class="friend-list">
+      <li><a class="friend-link" href="http://www.skywind.me/blog/" target="_blank">Skywind Inside</a></li>
+       <li><a class="friend-link" href="http://blog.codingnow.com/" target="_blank">云风的 BLOG</a></li>
+      <li><a class="friend-link" href="http://clark-zhao.github.io/" target="_blank">博乎</a></li>
+  </ul>
+</div>
+{% include footer.html %}
+{% include foot.html %}
