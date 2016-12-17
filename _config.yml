@@ -3,7 +3,7 @@ title: 逼乎
 url: "http://xiaobaolovexiaomei.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
-description: Jason的个人博客网站，编程、读书、英语。
+description: Jason的个人博客网站，编程、读书、英语
 # Your information
 email: shaojhweb@gmail.com
 author: Jason
@@ -14,7 +14,7 @@ position: null
 school: 三本
 major: 渔业
 # resume: "http://zhaoyuxiang.cn/cv"
-profile: 无。
+profile: Jason的个人博客网站，编程、读书、英语
 twitter_username: ms_jason
 weibo_username:  ms_jason
 github_username:  ms_jason
