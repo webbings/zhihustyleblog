@@ -1,12 +1,12 @@
 # Site settings
-title: blog
+title: 芝苸
 url: "http://xiaobaolovexiaomei.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
 description: Jason的个人博客网站，编程、读书、杂文
 # Your information
 email: shaojhweb@gmail.com
-author: a
+author: js
 place: 中国
 domain: 互联网
 company: null
