@@ -6,7 +6,7 @@ baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one 
 description: Jason的个人博客网站，编程、读书、杂文
 # Your information
 email: shaojhweb@gmail.com
-author: .
+author: ***
 place: 中国
 domain: 互联网
 company: null
