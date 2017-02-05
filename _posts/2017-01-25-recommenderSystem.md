@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 推荐系统
-author: Json
+author: Jason
 date:   2017-01-25
 categories: 推荐系统
 permalink: /archivers/recommenderSystem
