@@ -3,7 +3,7 @@ layout: post
 title: 利用OPENCV训练xml
 author: j.s
 date:   2017-02-16
-categories: Computer Vision
+categories: ComputerVision
 permalink: /archivers/opencv_train_xml
 ---
 <p class="lead">OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。之前我们尝试利用openCV 2.4.13版本实现了（1）人脸识别和 （2）JAVA调用JNI程序类</p>
