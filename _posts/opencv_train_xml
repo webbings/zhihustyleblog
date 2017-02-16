@@ -6,7 +6,7 @@ date:   2017-02-16
 categories: Computer Vision
 permalink: /archivers/opencv_train_xml
 ---
-<p class="lead">OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。之前我们尝试利用opencvopenCV2.4.13版本实现了（1）人脸识别和 （2）JAVA调用JNI程序类</p>
+<p class="lead">OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。之前我们尝试利用openCV 2.4.13版本实现了（1）人脸识别和 （2）JAVA调用JNI程序类</p>
 
 但是人脸识别使用的特征是opencv自己训练的xml，当然效果很不错，如果我们希望自己来定义图片的特征，举例：图片中有大片红色的定义为暴力图片，其他是非暴力的图片，那么我们就需要自己来训练得到xml。
 本文尝试网上的实际例子，通过训练人脸图片来得到xml，并用我们训练得到的xml来验证效果。
@@ -16,3 +16,22 @@ permalink: /archivers/opencv_train_xml
 我们将数据集拆分为：训练集、验证集。随机选取其中的20张图片作为验证集，剩余的图片都作为训练集。
 
 
+## 准备
+* windows7 64位
+* eclipse 32位，jdk1.7
+* openCV 2.4.13
+
+## 一.原始图片数据预处理
+为了减少计算量，将图片统一处理为20*20分辨率，使用java+openCV
+
+{% highlight js %}
+
+ Mat image = Highgui.imread(path);
+ Mat resizeimage = new Mat();
+ Size sz = new Size(20, 20);
+ Imgproc.resize(image, resizeimage, sz);
+}
+
+{% endhighlight %}
+
+## 二.随机选取其中的20张图片作为验证集，剩余的图片都作为训练集
