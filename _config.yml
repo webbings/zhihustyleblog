@@ -1,12 +1,12 @@
 # Site settings
-title: Café
-url: "http://sjh.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
+title: mmFm
+url: "http://xiaobaolovexiaomei.com"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
 description: Jason的个人博客网站，编程、读书、杂文
 # Your information
 email: shaojhweb@gmail.com
-author: js
+author: j.s
 place: 中国
 domain: 互联网
 company: www
@@ -21,9 +21,9 @@ github_username:  ms_jason
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-disqus_shortname: disqus_rBsrcAHSI0
+# disqus_shortname: disqus_rBsrcAHSI0
 # get one: https://disqus.com/admin/signup/
-# duoshuo_shortname: clark-zhao
+duoshuo_shortname: clark-zhao
 # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title
